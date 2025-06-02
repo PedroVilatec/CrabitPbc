@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src=js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lista de Clientes</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Lista de Usuários</h1>
+    <hr>
+    <table class="table">
+    <thead class="thead-default">
+        <tr>
+            <th align="center"><h3>Nome</h3></th>
+            <th align="center"><h3>Email</h3></th>
+            <th align="center"><h3 align="center">Editar</h3></th>
+            <th align="center"><h3 align="center">Excluir</h3></th>
+        </tr>
+    </thead>
+        {%  for usuario in usuarios %}
+        <tr>
+            <td>{{ usuario.nome }}</td>
+            <td>{{ usuario.email }}</td>
+            <td align="center">
+                <a href="/editarUsuario/{{ usuario._id }}">
+                    <i class="fa fa-pencil-square" style="font-size:24px;color:#007dff"></i>
+                </a>
+            </td>
+            <td align="center">
+                <a href="/excluirUsuario/{{ usuario._id }}" onclick="return confirm('Deseja remover este usuário?');">
+                     <i class="fa fa-window-close" style="font-size:24px;color:red"></i>
+                </a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="{{ url_for("cadastrarUsuario") }}" class="btn btn-success">Cadastrar</a>
+    <a href="{{ url_for("index") }}" class="btn btn-default">Retornar à home</a>
+    </div>
+</body>
+</html>

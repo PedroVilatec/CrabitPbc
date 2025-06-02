@@ -1,0 +1,35 @@
+erros encontrados na integração
+CustomErrorRegistra: no such collation sequence: latin1_general_ci in LEITURA_ESTANQUEIDADE
+
+Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/home/pi/Crabit/vilatec/app.py", line 1742, in realiza_teste_estanqueidade
+    ser.write(b'BOMBA,0\n')
+  File "/usr/local/lib/python3.5/dist-packages/serial/serialposix.py", line 553, in write
+    abort, ready, _ = select.select([self.pipe_abort_write_r], [self.fd], [], None)
+  File "/usr/local/lib/python3.5/dist-packages/eventlet/green/select.py", line 76, in select
+    listeners.append(hub.add(hub.READ, k, on_read, current.throw, lambda: None))
+  File "/usr/local/lib/python3.5/dist-packages/eventlet/hubs/epolls.py", line 48, in add
+    listener = BaseHub.add(self, evtype, fileno, cb, tb, mac)
+  File "/usr/local/lib/python3.5/dist-packages/eventlet/hubs/hub.py", line 178, in add
+    evtype, fileno, evtype, cb, bucket[fileno]))
+RuntimeError: Second simultaneous read on fileno 26 detected.  Unless you really know what you're doing, make sure that only one greenthread can read any particular socket.  Consider using a pools.Pool. If you do know what you're doing and want to disable this error, call eventlet.debug.hub_prevent_multiple_readers(False) - MY THREAD=<function select.<locals>.on_read at 0x74d5b858>; THAT THREAD=FdListener('read', 26, <function select.<locals>.on_read at 0x74d22a50>, <built-in method throw of greenlet.greenlet object at 0x74dbd8a0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/threading.py", line 914, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.5/threading.py", line 862, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/pi/Crabit/vilatec/app.py", line 1817, in realiza_teste_estanqueidade
+    ser.write(b'SCT,50\n')
+  File "/usr/local/lib/python3.5/dist-packages/serial/serialposix.py", line 553, in write
+    abort, ready, _ = select.select([self.pipe_abort_write_r], [self.fd], [], None)
+  File "/usr/local/lib/python3.5/dist-packages/eventlet/green/select.py", line 76, in select
+    listeners.append(hub.add(hub.READ, k, on_read, current.throw, lambda: None))
+  File "/usr/local/lib/python3.5/dist-packages/eventlet/hubs/epolls.py", line 48, in add
+    listener = BaseHub.add(self, evtype, fileno, cb, tb, mac)
+  File "/usr/local/lib/python3.5/dist-packages/eventlet/hubs/hub.py", line 178, in add
+    evtype, fileno, evtype, cb, bucket[fileno]))
+RuntimeError: Second simultaneous read on fileno 26 detected.  Unless you really know what you're doing, make sure that only one greenthread can read any particular socket.  Consider using a pools.Pool. If you do know what you're doing and want to disable this error, call eventlet.debug.hub_prevent_multiple_readers(False) - MY THREAD=<function select.<locals>.on_read at 0x74d5b6f0>; THAT THREAD=FdListener('read', 26, <function select.<locals>.on_read at 0x74d22a50>, <built-in method throw of greenlet.greenlet object at 0x74dbd8a0>)

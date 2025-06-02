@@ -1,0 +1,3 @@
+sudo killall gunicorn
+sudo rm /home/pi/Crabit/instance/backup_etens.json /home/pi/Crabit/instance/last_backup_etens.json /mnt/ramdisk/temp_disp.json /mnt/ramdisk/last_state.json
+start_app

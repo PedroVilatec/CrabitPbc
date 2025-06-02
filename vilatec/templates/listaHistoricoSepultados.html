@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src=js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Histórico de sepultados</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Histórico de sepultados</h1>
+    <hr>
+    <table class="table">
+    <thead class="thead-default">
+        <tr>
+            <th align="center"><h3>Lóculo</h3></th>
+            <th align="center"><h3>Nome</h3></th>
+            <th align="center"><h3>Data</h3></th>
+            <th align="center"><h3>Hora</h3></th>
+        </tr>
+    </thead>
+        {%  for sepultado in sepultados %}
+        <tr>
+            <td>{{ sepultado.loculo }}</td>
+            <td>{{ sepultado.nome }}</td>
+            <td>{{ sepultado.data_sepultamento.strftime('%d/%m/%Y') }}</td>
+            <td>{{ sepultado.hora_sepultamento.strftime('%H:%M') }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="{{ url_for("index") }}" class="btn btn-default">Retornar à home</a>
+    </div>
+</body>
+</html>

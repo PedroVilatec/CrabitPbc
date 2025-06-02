@@ -1,0 +1,9 @@
+sudo python3 /home/pi/.arduino15/packages/esp8266/hardware/esp8266/2.6.3/tools/upload.py --chip esp8266 --port COM4 --baud 921600 erase_flash --before default_reset --after hard_reset write_flash 0x0 <arquivo>.bin
+
+
+
+C:\Users\Pedro_Silva\AppData\Local\Arduino15\packages\esp8266\tools\python3\3.7.2-post1/python3 C:\Users\Pedro_Silva\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.7.4/tools/upload.py --chip esp8266 --port COM69 --baud 921600 erase_flash --before default_reset --after hard_reset write_flash 0x0 B:\CODIGOS\ESP8266\V_CAB_SIMP_WM_1.3\V_CAB_SIMP_WM_1.3.ino.d1_mini.bin
+
+C:\Users\Pedro_Silva\AppData\Local\Arduino15\packages\esp8266\tools\python3\3.7.2-post1/python3 C:\Users\Pedro_Silva\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.7.4/tools/upload.py --chip esp8266 --port /dev/ttyUSB0 --baud 921600 erase_flash --before default_reset --after hard_reset write_flash 0x0 B:\CODIGOS\ESP8266\EVAPORADOR_V_TRIPLA\EVAPORADOR_V_TRIP_WM\EVAPORADOR_V_TRIP_WM.ino.d1_mini.bin
+
+python3 /home/pi/.arduino15/packages/esp8266/hardware/esp8266/3.0.2/tools/upload.py --chip esp8266 --port /dev/ttyUSB0 --baud 921600 erase_flash --before default_reset --after hard_reset write_flash 0x0 /home/pi/CAPELA/cerimonia/scketches/CORTINAS_ESP8266_CEDERJ/CORTINAS_ESP8266_CEDERJ.ino.d1_mini.bin

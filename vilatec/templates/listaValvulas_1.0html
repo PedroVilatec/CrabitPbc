@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8"/>
+<head>
+<style>
+p.small {
+  line-height: 0.2;
+}
+
+p.big {
+  line-height: 1.8;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src=js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lista de Óbitos</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Lista de sepultados</h1>
+    <hr>
+    <table class="table">
+    <thead class="thead-default">
+        <tr>
+            <th align="center"><h3>Dispositivo</h3></th>
+            <th align="center"><h3>Status</h3></th>
+            <th align="center"><h3>Comando</h3></th>
+            <!--<th align="center"><h3>Hora</h3></th>-->
+            <th align="center"><h3 align="center">Editar</h3></th>
+            <th align="center"><h3 align="center">Exumar</h3></th>
+        </tr>
+    </thead>
+        {%  for disp in devices %}
+        <h1>{{ disp }}</h1>
+        
+            {% for key, value in devices[disp].items() %}
+            
+			<p class="small"><font size="1"><strong>{{ key }}</strong> = <span>{{ value }}</span></font></p>
+			{% endfor %}
+        <tr>
+            <td>{{ devices[disp]["MAIOR_PRESSAO"] }}</td>
+            <td>{{devices[disp]}}</td>
+            <td>{{ disp }}</td>
+            <td>{{ disp }}</td>
+            <td>{{ disp }}</td>
+            <td align="center">
+                <a href="/editarSepultado/{{ disp._id }}">
+                    <i class="fa fa-pencil-square" style="font-size:24px;color:#007dff"></i>
+                </a>
+            </td>
+            <td align="center">
+                <a href="/excluirSepultado/{{ disp._id }}" onclick="return confirm('Deseja exumar este disp?');">
+                    <i class="fa fa-window-close" style="font-size:24px;color:red"></i>
+                </a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="{{ url_for("cadastrarSepultado") }}" class="btn btn-success">Cadastrar</a>
+    <a href="{{ url_for("index") }}" class="btn btn-default">Retornar à home</a>
+    </div>
+</body>
+</html>

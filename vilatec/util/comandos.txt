@@ -1,0 +1,2 @@
+http://192.168.0.113/mqtt?server=MCC2&port=1883
+curl -F 'data=@/home/pi/Crabit/vilatec/util/V_CAB_1.3.ino.d1_mini.bin' http://192.168.1.108/update

@@ -1,0 +1,8 @@
+grep -q -e 'PORTA_MQTT_SERVER' ~/Crabit/instance/config.py || sed -i.bak '/class Config():/a \ \ \ \ PORTA_MQTT_SERVER = 1883' ~/Crabit/instance/config.py
+grep -q -e 'PORTA_MQTT_LOCAL' ~/Crabit/instance/config.py || sed -i.bak '/class Config():/a \ \ \ \ PORTA_MQTT_LOCAL = 1883' ~/Crabit/instance/config.py
+echo 'python3 ~/Crabit/vilatec/util/MONITOR_SERIAL.pyw'> /bin/start_monitor
+echo 'sudo killall gunicorn\nsudo gunicorn --worker-class eventlet -w 1 --reload --bind 0.0.0.0:8000 --chdir /home/pi/Crabit/vilatec app:app'> /bin/start_app
+echo 'python3 /home/pi/Crabit/vilatec/mqtt_mcc.py'> /bin/start_mqtt
+
+chmod 777 /bin/start_monitor /bin/start_app /bin/start_mqtt
+# sudo mount //170.79.171.66/share /mnt -o username=pi,password=nbr5410! && cp -v -r -u /mnt/vilatec ~/Crabit/ && sudo umount /mnt

@@ -1,0 +1,5 @@
+
+
+
+#busca se houver ocorrência de "Inicio"
+awk '{if (index($1,"19/01/2020")){ print $3 " "$5} }' troca_gasosa.txt

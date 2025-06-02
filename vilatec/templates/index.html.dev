@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8"/>
+  <head>
+	<!--<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.5"/>-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <script type="text/javascript" src="../static/date_time.js"></script>
+
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+          rel="stylesheet">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js" integrity="sha256-lDaoGuONbVHFEV6ZW3GowBu4ECOTjDE14hleNVBvDW8=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type=text/javascript>
+        $(document).ready(function() {
+            var socket = io();
+            socket.on('status', function(data) {
+                var info = JSON.parse(data);
+                $('#status').html(info.estado);
+                console.log(data);
+            });
+            socket.on('sensors', function(data) {
+                var info = JSON.parse(data);
+                $('#value1').html(info.sensor1);
+                $('#value2').html(info.sensor2);
+                $('#value3').html(info.sensor3);
+                $('#value4').html(info.sensor4);
+                $('#value6').html(info.sensor6);
+                $('#value8').html(info.conexao);
+            });
+            socket.on('efic', function(data){
+                var info = JSON.parse(data);
+                $('#value7').html(info.efic);
+            });
+            $('#teste-button').on('click', function () {
+                <!--socket.send('EFIC\n');-->
+                <!--console.log('EFIC');-->
+                socket.send('TESTE\n');
+                
+            });
+        });
+  </script>
+  </head>
+  <body>
+    <div class="content">
+        <p>
+            <h4 class="text-justify"><img src="../static/LOGO_CEM.png" height="30px" style=vertical-align: middle">
+            MCC - Modulo de Controle e Comando</h4>
+            <h4 class="text-center"> ID: {{ serial }}</h4>
+            <h4 class="text-center"><span id="tempo"></span>
+                <script type="text/javascript">window.onload = date_time('tempo');</script>
+                | Rede: <span id="value8"></span>
+            </h4>
+        </p>
+    </div>
+    <br>
+    <div class="container gray">
+        <div class="row">
+            <div class="col-sm-3 blue"><h4>Pressão</h4></div>
+            <div class="col-sm-3"><h4><span id="value3">#</span> mmH2O</h4></div>
+            <div class="col-sm-3 blue"><h4>Umidade</h4></div>
+            <div class="col-sm-3"><h4><span id="value2">#</span> %</h4></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 blue"><h4>Status da Válvula</h4></div>
+            <div class="col-sm-3"><h4><span id="value1">#</span> °C</h4></div>
+            <div class="col-sm-3 blue"><h4>Eficiência da Filtragem</h4></div>
+            <div class="col-sm-3"><h4><span id="value7">100%</span></h4></div>
+        </div>
+        <!--div class="row">
+            <div class="col-sm-3 blue"><h4>Status da válvula</h4></div>
+            <div class="col-sm-3"><h4><span id="value44">operacional</span></h4></div>
+            <div class="col-sm-3 blue"><h4>Nível do Fluido</h4></div>
+            <div class="col-sm-3"><h4><span id="value10">operacional</span></h4></div>
+        </div-->
+        <!--div class="row">
+            <div class="col-sm-3 blue"><h4>Número de Corpos</h4></div>
+            <div class="col-sm-3"><h4><span id="value5">{{ quant }}</span></h4></div>
+            <div class="col-sm-3 blue"><h4>Fluxo de Ar</h4></div>
+            <div class="col-sm-3"><h4><span id="value6">%</span></h4></div>
+        </div-->
+        <div class="row">
+            <h4 class="text-center blue"><div id="status">###</div></h4>
+        </div>
+    </div>
+    
+    <div class="text-center">
+        <a class="btn btn-info" id="teste-button">Teste pressão</a>
+        <a href="{{ url_for("listaSepultados") }}" class="btn btn-default">Cadastro</a>
+        <!--<a href="{{ url_for("listaValoresIdeais") }}" class="btn btn-success">Listar valores ideais</a>-->
+        <!--<a href="{{ url_for("listaUsuarios") }}" class="btn btn-warning">Listar usuários</a>-->
+    </div>
+    <br>
+    <br>
+    <img src="../static/LOGO_VILATEC.png" class="img-responsive center-block">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="utf-8"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src=js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sensores</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Tipos de Sensores</h1>
+    <hr>
+    <table class="table">
+    <thead class="thead-default">
+        <tr>
+            <th align="center"><h3>Tipo</h3></th>
+        </tr>
+    </thead>
+        {%  for sensor in sensores %}
+        <tr>
+            <td>{{ sensor.tipo }} ({{ sensor._id }})</td>
+            <td align="center">
+                <a href="/excluirSensor/{{ sensor._id }}" onclick="return confirm('Deseja remover esse valor ideal?');">
+                    <i class="fa fa-window-close" style="font-size:24px;color:red"></i>
+                </a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="{{ url_for("cadastrarSensor") }}" class="btn btn-success">Cadastrar</a>
+    <a href="{{ url_for("index") }}" class="btn btn-default">Retornar à home</a>
+    </div>
+</body>
+</html>

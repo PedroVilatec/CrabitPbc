@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script>
+        function goBack() {
+            window.history.back()
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/static/scripts/jquery-3.1.1-.min.js"></script>
+    <script src=js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Editar</title>
+</head>
+<body>
+<div class="container">
+    <h1>Página de edição de sepultados</h1>
+    <hr>
+    <form action="" method="POST">
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" name="nome" value="{{ sepultado.nome }}">
+        </div>
+        <div class="form-group">
+            <label for="data_sepult">Data:</label>
+            <input type="text" class="form-control" name="data_sepult" value="{{ data }}">
+        </div>
+        <div class="form-group">
+            <label for="hora_sepult">Hora:</label>
+            <input type="text" class="form-control" name="hora_sepult" value="{{ hora }}">
+        </div>
+        <div class="form-group">
+            <label for="loculo">Lóculo:</label>
+            <input type="text" class="form-control" name="loculo" value="{{ sepultado.loculo }}">
+        </div>
+        <div>
+            <input class="btn btn-info" type="submit" value="Confirmar">
+            <button class="btn btn-default" onclick="goBack()">Retornar</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

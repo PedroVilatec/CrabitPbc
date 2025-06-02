@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery -->
+    <script src="/static/scripts/jquery-3.2.1.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS (deve vir após jQuery) -->
+    <script src="/static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <title>Erro</title>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1 class="text-danger">Infelizmente, ocorreu algum problema.</h1>
+        <p>Favor voltar, verificar as informações e tentar novamente.</p>
+        <button class="btn btn-primary mt-3" onclick="goBack()">Retornar</button>
+    </div>
+</body>
+</html>

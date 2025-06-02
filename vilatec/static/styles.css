@@ -1,0 +1,48 @@
+.gray {
+    background-color: lightgray;
+}
+
+div.row {
+    /* border: 1px solid; */
+    border: none;
+    border-color: darkgrey;
+}
+
+.blue {
+    color: blue;
+}
+ .nowrap {
+      white-space: nowrap;
+    }
+    .scroll-container {
+      overflow-x: auto;
+      width: 100%;
+    }
+  .container {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background: none !important;
+  }
+
+  .scroll-container {
+    overflow-x: auto;
+    width: 100%;
+  }
+sub {
+  font-size: 0.7em;
+  vertical-align: sub;
+}  
+.condensed {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: -0.05em;
+  font-size: 0.9em;
+  line-height: 1;
+} 
+.fixed-bottom-right {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Garante que fique por cima de outros elementos */
+}
+

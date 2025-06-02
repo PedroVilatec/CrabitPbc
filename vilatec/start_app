@@ -1,0 +1,2 @@
+sudo killall gunicorn
+sudo gunicorn --worker-class eventlet -w 1 --reload --bind 0.0.0.0:8000 --chdir /home/pi/Crabit/vilatec app:app

@@ -1,0 +1,775 @@
+{
+Realizado em 15/04/2020 19:00:00
+Válvula cabine não fechou para teste de estanqueidade.
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 14/04/2020 19:00:00
+Válvula cabine não fechou para teste de estanqueidade.
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 13/04/2020 19:00:00
+Válvula cabine não fechou para teste de estanqueidade.
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 12/04/2020 19:00:01
+Válvula cabine não fechou para teste de estanqueidade.
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 11/04/2020 21:45:30
+Válvula cabine não fechou para teste de estanqueidade.
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 09/04/2020 19:00:00
+Válvula cabine não fechou para teste de estanqueidade.
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 08/04/2020 19:00:00
+Válvula cabine não fechou para teste de estanqueidade.
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 06/04/2020 19:00:00
+Válvula cabine não fechou para teste de estanqueidade.
+COLETORA_1 VAZIO
+COLETORA_2 VAZIO
+
+}
+{
+Realizado em 05/04/2020 19:00:00
+Válvula cabine não fechou para teste de estanqueidade.
+COLETORA_1 VAZIO
+COLETORA_2 CHEIO
+
+}
+{
+Realizado em 04/04/2020 19:00:01
+Válvula cabine não fechou para teste de estanqueidade.
+COLETORA_1 VAZIO
+COLETORA_2 CHEIO
+
+}
+{
+Realizado em 03/04/2020 19:00:01
+Válvula cabine não fechou para teste de estanqueidade.
+COLETORA_1 VAZIO
+COLETORA_2 MEIO
+
+}
+{
+Realizado em 02/04/2020 19:00:00
+Disp.BLOCO ÚNICO P.I -101.0 P.M. -107.0 D 00:00:01
+COLETORA_1 VAZIO
+COLETORA_2 VAZIO
+
+}
+Disp.BLOCO ÚNICO P.I -101.0 P.M. -107.0 D 00:00:01
+{
+Realizado em 01/04/2020 19:00:00
+Disp.BLOCO ÚNICO P.I -101.0 P.M. -103.7 D 00:00:01
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+Disp.BLOCO ÚNICO P.I -101.0 P.M. -103.7 D 00:00:01
+{
+Realizado em 31/03/2020 19:00:00
+Disp.BLOCO ÚNICO P.I -101.0 P.M. -107.0 D 00:00:01
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+Disp.BLOCO ÚNICO P.I -101.0 P.M. -107.0 D 00:00:01
+{
+Realizado em 13/03/2020 19:00:00
+Disp.sucção bloco 1 P.I -101.0 P.M. -103.7 D 00:00:01
+COLETORA_1 VAZIO
+
+}
+Disp.sucção bloco 1 P.I -101.0 P.M. -103.7 D 00:00:01
+{
+Realizado em 12/03/2020 19:00:00
+Válvula cabine não fechou para teste de estanqueidade em 
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 04/03/2020 19:00:04
+Disp.sucção bloco 1 P.I -101.0 P.M. -97.2 D 00:02:55
+COLETORA_1 VAZIO
+
+}
+Disp.sucção bloco 1 P.I -101.0 P.M. -97.2 D 00:02:55
+{
+Realizado em 04/03/2020 10:32:15
+Disp.sucção bloco 1 P.I -101.0 P.M. -95.5 D 00:03:03
+COLETORA_1 VAZIO
+
+}
+Disp.sucção bloco 1 P.I -101.0 P.M. -95.5 D 00:03:03
+{
+Realizado em 04/03/2020 08:37:31
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:08
+COLETORA_1 VAZIO
+
+}
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:08
+{
+Realizado em 03/03/2020 19:00:01
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:08
+COLETORA_1 VAZIO
+
+}
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:08
+{
+Realizado em 02/03/2020 19:00:09
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:05
+COLETORA_1 VAZIO
+
+}
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:05
+{
+Realizado em 29/02/2020 19:00:08
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:08
+COLETORA_1 VAZIO
+
+}
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:08
+{
+Realizado em 28/02/2020 19:00:09
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:05
+COLETORA_1 VAZIO
+
+}
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:05
+{
+Realizado em 19/02/2020 19:00:06
+Disp.sucção bloco 1 P.I -101.0 P.M. -101.5 D 00:00:14
+COLETORA_1 VAZIO
+
+}
+Disp.sucção bloco 1 P.I -101.0 P.M. -101.5 D 00:00:14
+{
+Realizado em 18/02/2020 19:00:03
+Disp.sucção bloco 1 P.I -101.0 P.M. -101.5 D 00:00:07
+COLETORA_1 VAZIO
+
+}
+Disp.sucção bloco 1 P.I -101.0 P.M. -101.5 D 00:00:07
+{
+Realizado em 12/02/2020 19:00:04
+Disp.sucção bloco 1 P.I -101.0 P.M. -101.6 D 00:00:12
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 11/02/2020 19:00:04
+Disp.sucção bloco 1 P.I -101.0 P.M. -103.7 D 00:00:09
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 10/02/2020 19:00:06
+Válvula sucção bloco 1 não fechada
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 09/02/2020 19:00:09
+Disp.sucção bloco 1 P.I -101.0 P.M. -102.1 D 00:00:06
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 08/02/2020 19:00:00
+Disp.sucção bloco 1 P.I -101.0 P.M. -107.0 D 00:00:04
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 07/02/2020 19:00:01
+Disp.sucção bloco 1 P.I -101.0 P.M. -107.6 D 00:00:07
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 06/02/2020 19:00:08
+Disp.sucção bloco 1 P.I -101.0 P.M. -159.4 D 00:00:35
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 05/02/2020 19:00:04
+Disp.sucção bloco 1 P.I -101.0 P.M. -101.6 D 00:00:04
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 04/02/2020 19:00:06
+Disp.sucção bloco 1 P.I -101.0 P.M. -126.7 D 00:00:12
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 03/02/2020 19:00:04
+Disp.sucção bloco 1 P.I -101.0 P.M. -101.6 D 00:00:04
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 02/02/2020 19:00:06
+Disp.sucção bloco 1 P.I -101.0 P.M. -105.9 D 00:00:09
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 01/02/2020 19:00:00
+Disp.sucção bloco 1 P.I -101.0 P.M. -103.7 D 00:00:03
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 31/01/2020 19:00:02
+Disp.sucção bloco 1 P.I -101.0 P.M. -108.7 D 00:00:10
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 30/01/2020 19:00:00
+Disp.sucção bloco 1 P.I -101.0 P.M. -102.1 D 00:00:07
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 29/01/2020 19:00:04
+Disp.sucção bloco 1 P.I -101.0 P.M. -116.8 D 00:00:12
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 28/01/2020 19:00:09
+Disp.sucção bloco 1 P.I -101.0 P.M. -102.6 D 00:00:08
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 27/01/2020 19:00:04
+Válvula cabine não fechou para teste de estanqueidade em 
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 27/01/2020 15:38:00
+Válvula cabine não fechou para teste de estanqueidade em 
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 24/01/2020 08:28:02
+Disp.sucção bloco 1 P.I -101.0 P.M. -102.1 D 00:00:01
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 23/01/2020 19:00:09
+Disp.sucção bloco 1 P.I -101.0 P.M. -102.7 D 00:00:03
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 21/01/2020 19:00:09
+Disp.sucção bloco 1 P.I -101.0 P.M. -7.2 D 00:02:06
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 20/01/2020 19:00:00
+Disp.sucção bloco 1 P.I -101.0 P.M. -105.1 D 00:00:02
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 19/01/2020 19:00:07
+Disp.sucção bloco 1 P.I -101.0 P.M. -101.5 D 00:00:07
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 18/01/2020 19:00:08
+Disp.sucção bloco 1 P.I -101.0 P.M. -101.5 D 00:00:07
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 17/01/2020 19:00:00
+Disp.sucção bloco 1 P.I -101.0 P.M. -101.5 D 00:00:18
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 15/01/2020 19:00:01
+Válvula cabine não fechou para teste de estanqueidade em 
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 14/01/2020 19:00:06
+Disp.sucção bloco 1 P.I -101.0 P.M. -104.6 D 00:00:02
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 12/01/2020 19:00:04
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:07
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 11/01/2020 19:00:04
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:07
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 10/01/2020 19:00:09
+Disp.sucção bloco 1 P.I -101.0 P.M. 0 D 00:02:06
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 15/12/2019 19:00:07
+Válvula cabine não fechou para teste de estanqueidade em 
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 14/12/2019 19:00:02
+Válvula cabine não fechou para teste de estanqueidade em 
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 13/12/2019 19:00:03
+Válvula cabine não fechou para teste de estanqueidade em 
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 19/11/2019 19:00:08
+Válvula sucção bloco 2 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 2 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 29/10/2019 09:57:19
+Válvula sucção bloco 2 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 2 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 2 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 2 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 26/10/2019 19:00:00
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 17/10/2019 19:00:00
+Válvula sucção bloco 2 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 2 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 2 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 2 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 15/10/2019 19:00:04
+Válvula sucção bloco 2 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 2 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 2 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 2 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 14/10/2019 19:00:05
+Válvula sucção bloco 2 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 2 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 2 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 2 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 12/10/2019 19:00:05
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 11/10/2019 19:00:04
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 09/10/2019 19:00:09
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 07/10/2019 19:00:07
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 03/10/2019 19:00:06
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 02/10/2019 19:00:04
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 29/09/2019 19:00:06
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 NÃO CONECTADO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 28/09/2019 19:00:01
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 NÃO CONECTADO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 27/09/2019 19:00:00
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 NÃO CONECTADO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 26/09/2019 19:00:03
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 25/09/2019 19:00:09
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 24/09/2019 19:00:03
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 23/09/2019 19:00:05
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 22/09/2019 19:00:07
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 21/09/2019 19:00:00
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 20/09/2019 19:00:02
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 19/09/2019 09:38:50
+Válvula sucção bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 18/09/2019 19:00:05
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+COLETORA_2 NÃO CONECTADO
+
+}
+{
+Realizado em 17/09/2019 19:00:04
+Disp.sucção bloco 1 P.I -101.0 P.M. -210.7 D 00:00:01
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 17/09/2019 15:34:33
+Disp.sucção bloco 1 P.I -101.0 P.M. -101.5 D 00:00:25
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 16/09/2019 19:00:01
+Disp.sucção bloco 1 P.I -101.0 P.M. -181.2 D 00:00:01
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 16/09/2019 16:07:41
+Disp.sucção bloco 1 P.I -101.0 P.M. -206.3 D 00:00:01
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 16/09/2019 16:07:06
+Disp.sucção bloco 1 P.I -101.0 P.M. -133.2 D 00:00:01
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 13/09/2019 15:04:56
+Disp.sucção bloco 1 P.I -220.0 P.M. -220.1 D 00:00:32
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 13/09/2019 14:25:59
+Disp.sucção bloco 1 P.I -180.0 P.M. -180.3 D 00:01:08
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 13/09/2019 14:06:24
+Disp.sucção bloco 1 P.I -180.0 P.M. -203.8 D 00:00:01
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 13/09/2019 13:59:32
+Disp.sucção bloco 1 P.I -150.0 P.M. -150.3 D 00:01:08
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 13/09/2019 13:54:51
+Disp.sucção bloco 1 P.I -120.0 P.M. -120.3 D 00:00:47
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 13/09/2019 13:47:05
+Disp.sucção bloco 1 P.I -101.0 P.M. -207.0 D 00:00:01
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 12/09/2019 19:00:06
+Disp.sucção bloco 1 P.I -101.0 P.M. -218.0 D 00:00:01
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 12/09/2019 14:40:42
+Disp.sucção bloco 1 P.I -101.0 P.M. -101.2 D 00:00:44
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 12/09/2019 14:23:12
+Disp.sucção bloco 1 P.I -101.0 P.M. -121.9 D 00:01:04
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 12/09/2019 14:21:06
+Disp.sucção bloco 1 P.I -101.0 P.M. -106.1 D 00:00:01
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 12/09/2019 14:04:08
+Disp.sucção bloco 1 P.I -101.0 P.M. -127.4 D 00:00:02
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 12/09/2019 14:02:54
+Válvula sucção bloco 1 não fechada
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 12/09/2019 13:59:42
+Disp.sucção bloco 1 P.I -101.0 P.M. -124.6 D 00:00:01
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 12/09/2019 12:30:30
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 12/09/2019 12:11:31
+Válvula sucção bloco 1 não fechada
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 12/09/2019 12:08:07
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 VAZIO
+
+}
+{
+Realizado em 26/07/2019 15:40:38
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 07/07/2019 19:00:05
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 01/07/2019 19:00:07
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 NÃO CONECTADO
+
+}
+{
+Realizado em 21/06/2019 15:41:49
+Válvula sucção bloco 1 não fechada
+Válvula admissão bloco 1 não fechada
+COLETORA_1 NÃO CONECTADO
+
+}

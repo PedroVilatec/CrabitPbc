@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/static/styles.css">
+
+  <!-- Scripts -->
+  <script src="/static/scripts/jquery-3.2.1.min.js"></script>
+  <script src="/static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="{{ socketio_script }}"></script>
+  <!-- <script src="/static/scripts/socket.io.min.js"></script> -->
+  <!-- <script src="/static/scripts/socket.io.4.6.1.js"></script> -->
+  <script src="/static/date_time.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var socket = io();
+
+      socket.on('status', function (data) {
+        var info = JSON.parse(data);
+        $('#status').html(info.estado);
+        // console.log(data);
+      });
+
+      socket.on('sensors', function (data) {
+        // console.log(data)
+        var info = JSON.parse(data);
+        $('#value1').html(info.temperatura);
+        $('#value2').html(info.umidade);
+        $('#value3').html(info.pressao);
+        $('#value4').html(info.valvula_cabine);
+        $('#value6').html(info.fluxo_de_ar);
+        $('#value8').html(info.conexao);
+        $('#value10').html(info.nivel_tanque);
+        $('#corrente').html(info.corrente.toFixed(2).toString().replace(".", ","));
+        $('#voltagem').html(info.voltagem.toFixed(0).toString().replace(".", ","));
+        $('#consumo').html(info.consumo.toFixed(1).toString().replace(",", "."));
+        $('#valor_kwh').html(info.valor_kwh.toFixed(2).toString().replace(".", ","));
+        $('#frequencia').html(info.frequencia);
+      });
+
+      socket.on('efic', function (data) {
+        var info = JSON.parse(data);
+        $('#value7').html(info.efic);
+      });
+
+      $('#teste-button').on('click', function () {
+        socket.send('teste_estanqueidade');
+      });
+
+      $('#troca_gasosa').on('click', function () {
+        socket.send('troca_gasosa');
+      });
+
+      $('#teste_api').on('click', function () {
+        socket.send('teste_api');
+      });
+
+      $('#fecha_todas').on('click', function () {
+        socket.send('fecha_todas');
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <!-- Imagem da logo fixa no canto superior direito -->
+  <div style="position: fixed; top: 20px; right: 0px;">
+    <img src="/static/MAO_PLANTA.png" style="max-width: 80px; max-height: 80px; width: auto; height: auto;">
+  </div>  
+  <!-- Container principal com apenas o texto -->
+  <div class="container-fluid">
+    <div class="row align-items-center" style="margin-top: 10px;">
+      <!-- Coluna dos textos centralizados -->
+      <div class="col-12 text-center">
+        <h4>ETEN - Estação de Tratamento de Efluentes em Necrópoles</h4>
+        <h4>{{ serial }}</h4>
+        <h4><span id="tempo"></span> <span id="value8"></span></h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- Imagem da logo fixa no canto inferior esquerdo -->
+  <div style="position: fixed; bottom: 20px; left: 20px;">
+    <img src="/imagens/LOGO_CEM.png" style="max-width: 250px; max-height: 150px; width: auto; height: auto;">
+  </div>
+
+
+    <div  class="container" style="background-color:Black">
+
+        <h2 style="color:red; text-align:center">
+            Atenção!
+        </h2>
+        <br>
+        <h3 style="color:red; text-align:center">
+            Sistema operando em condições críticas.
+        </h3>
+
+        <div class="row">
+        <h4 class="text-center" style="color:Red">A continuidade da operação neste formato implicará em alto de vazamento de gases, podendo causar disconforto aos
+            funcionários e visitantes. Favor entrar em contato urgente com a equipe de manutenção.
+        </h4>
+
+        <div style="color:red; text-align:center; font-size:18px"><p>Suporte Técnico Evolution</p></div>
+        <div style="color:red; text-align:center; font-size:18px">Tel: (81)99999-6376 / (81)3545-1334</div>
+        <br>
+        </div>
+        <br>
+        <!--<div class="row">
+            <h4 class="text-center" style="color:Red">Período em atraso<div id="manutencao">###</div></h4>
+        </div>-->
+    </div>
+
+    <div class="text-center">
+        <a class="btn btn-info" id="teste-button">Teste pressão</a>
+        <a class="btn btn-info" id="troca_gasosa">Troca Gasosa</a>
+        <a class="btn btn-info" id="teste_api">Teste API</a>
+        <!--<a href="/listaValoresIdeais" class="btn btn-success">Listar valores ideais</a>-->
+        <!--<a href="/listaUsuarios" class="btn btn-warning">Listar usuários</a>-->
+    </div>
+    <br>
+    <br>
+ <br><br>
+  <!-- <img src="/static/LOGO_EVOLUTION.png" class="img-responsive fixed-bottom-right" style="width:150px;height:45px;"> -->
+  <!-- Imagem da logo fixa no canto inferior esquerdo -->
+  <div style="position: fixed; bottom: 20px; right: 20px;">
+    <img src="/static/LOGO_EVOLUTION.png" style="width:150px;height:45px;">
+  </div>
+</html>
